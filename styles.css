@@ -63,30 +63,47 @@ h1, ul, img {
 
 
 .sub {
-	text-align: center;
 	background: #111;
 	border: 1px solid #f06495;
 	font-family: 'Lobster', cursive;
+	height: 55px;
 }
 .sub__ul {
-	margin: -7px;
+	margin: 0;
 	color: #f06495;
-	font-size: 25px;
-	top: -1000px;
-	padding-right: 10px;
+	margin-left: 620px;
+	display: block;
+	list-style: none;
+	position: absolute;
 }
 .sub__li {
-	display: inline-block;
-	padding: 10px;
+	padding: 12px 12px;
+	float: left;
 }
 .sub__li a {
 	color: #f06495;
-	font-size: 25px;
+	font-size: 29px;
+	text-decoration: none;
 }
 .sub__li:hover > a {
 	color: #F28773;
-	text-decoration-color: #F28773;
 	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.sub__ul__sub{
+	display:none;
+	list-style: none;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	background: #111;
+	padding: 5px;
+	margin: 0;
+}
+
+.sub__ul__sub:hover > li a {
+	color: #F28773;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.sub__li:hover > .sub__ul__sub{
+	display:block;
 }
 
 
@@ -200,7 +217,6 @@ tbody tr td a:hover{
 }
 .slider li {
 	width: 100%;
-
 	list-style: none;
 }
 .slider img {
@@ -226,6 +242,8 @@ tbody tr td a:hover{
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	font-family: 'Lobster', cursive;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .product-container {
 	margin: 5px;
@@ -391,18 +409,23 @@ footer {
 
 	.sub {
 	text-align: center;
+	height: 40px;
 	}
 	.sub__ul {
-	margin: -7px;
-	font-size: 25px;
 	padding: 5px;
+	margin:  0px 0px 0px 45px;
+	
 	}
 	.sub__li {
-	display: inline-block;
-	padding: 10px;
+	display: block;
+	padding: 2px 5px;
 	}
 	.sub__li a {
-	font-size: 20px;
+	font-size: 15px;
+	}
+
+	.page-content {
+	padding-top: 30px;
 	}
 
 	footer {
