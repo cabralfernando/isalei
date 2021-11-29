@@ -89,23 +89,6 @@ h1, ul, img {
 	color: #F28773;
 	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
-.sub__ul__sub{
-	display:none;
-	list-style: none;
-	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-	background: #111;
-	padding: 5px;
-	margin: 0;
-}
-
-.sub__ul__sub:hover > li a {
-	color: #F28773;
-	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
-.sub__li:hover > .sub__ul__sub{
-	display:block;
-}
-
 
 #input-search{
     width: 300px;
@@ -242,8 +225,8 @@ tbody tr td a:hover{
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	font-family: 'Lobster', cursive;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .product-container {
 	margin: 5px;
