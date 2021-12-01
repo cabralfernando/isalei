@@ -239,7 +239,7 @@ tbody tr td a:hover{
 	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 .product-container img {
-	width: 300px;
+	width: 500px;
 }
 
 
@@ -249,12 +249,12 @@ tbody tr td a:hover{
 	color: black;
 	transition-duration: 0.4s;
 	position: absolute;
-	right: 18px;
-	bottom: 30px;
-	font-size: 22px;
+	right: 25px;
+	bottom: 17px;
+	font-size: 25px;
 	text-align: center;
 	border-radius: 8px;
-	padding: 10px 20px;
+	padding: 8px 20px;
 }
 .button-add:hover {
 	background-color: #f06495;
@@ -269,8 +269,8 @@ tbody tr td a:hover{
 	font-family: 'Arvo', serif;
 }
 .product-container h3 {
-	font-size: 32px;
-	margin-left: 10px;
+	font-size: 38px;
+	margin: 16px 10px 16px 20px;
 	bottom: 20px;
 	color: #f06495;
 }
@@ -405,6 +405,35 @@ footer {
 	}
 	.sub__li a {
 	font-size: 20px;
+	}
+	.product-container {
+		margin: 2px 0px;
+		padding: 2px 0px;
+	}
+	
+	.product-container img {
+		width: 370px;
+	}
+	.product-container h2 {
+		font-size: 25px;
+		margin: 10px 10px 10px 20px;
+		color: #f06495;
+		text-shadow: 8px;
+		font-family: 'Arvo', serif;
+	}
+	.product-container h3 {
+		font-size: 35px;
+		margin: 10px 10px 10px 20px;
+		color: #f06495;
+	}
+	.button-add {
+		background-color: white;
+		position: absolute;
+		font-size: 22px;
+		text-align: center;
+		padding: 8px 12px;
+		margin: 10px;
+		bottom: 0px;
 	}
 
 	footer {
