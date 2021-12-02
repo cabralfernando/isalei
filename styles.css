@@ -276,6 +276,18 @@ tbody tr td a:hover{
 }
 
 
+.wsp {
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	padding: 0;
+	margin: 0;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+
+
 footer {
 	background-color: #111;
 	border: 1px solid #f06495;
